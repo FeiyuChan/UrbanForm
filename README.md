@@ -1,18 +1,20 @@
 # UrbanForm
 urban form metrics for small to medium sized cities
 
-
-
 These toolsets were made to accompany Quantifying the sustainability of urban growth and form through time: An algorithmic analysis of a city's development
 
-Inputs ArcGIS Python Toolbox:
+##Inputs ArcGIS Python Toolbox:
 Here are four toolsets in the form of ArcGIS  toolboxes and accompanying python scripts.
 
-Connectivity
-Requirements: Roads layer, City or Area of Interest Layer
-Use: Judges the mean intersection density
-Description: This tool measures the intersection density across a city or pre-defined area using a 440 meter default. Outputs a point density raster.
-Key Statistics: Raster of city connectivity and connectivity statistics.
+###Connectivity
+######Requirements: 
+Roads layer, City or Area of Interest Layer
+######Use: 
+Judges the mean intersection density
+######Description: 
+This tool measures the intersection density across a city or pre-defined area using a 440 meter default. Outputs a point density raster.
+#######Key Statistics: 
+Raster of city connectivity and connectivity statistics.
 
 Clustering
 Requirements: Building footprint, city center/CBD
